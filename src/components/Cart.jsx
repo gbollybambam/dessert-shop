@@ -12,7 +12,7 @@ function Cart({ cart, onRemove, onConfirmOrder }) {
             <h2 className="text-3xl font-bold text-red">Your Cart ({cart.length})</h2>
             {isCartEmpty ? (
                 <div className="flex flex-col items-center justify-center gap-4 py-16">
-                    <img src="/images/illustration-empty-cart.svg" alt="Empty cart" className="w-32" />
+                    <img src="images/illustration-empty-cart.svg" alt="Empty cart" className="w-32" />
                     <p className="font-semibold text-rose-500 text-center">Your added items will appear here</p>
                 </div>
             ) : (
@@ -29,7 +29,7 @@ function Cart({ cart, onRemove, onConfirmOrder }) {
                         </div>
     
                         <div className="flex justify-center items-center gap-2 bg-rose-50 p-4 rounded-md">
-                            <img src="/images/icon-carbon-neutral.svg" alt="Carbon neutral" className="w-5" />
+                            <img src="images/icon-carbon-neutral.svg" alt="Carbon neutral" className="w-5" />
                             <p className="whitespace-nowrap">This is a <span className="font-semibold ">carbon-neutral</span> delivery</p>
                         </div>
                     </div>

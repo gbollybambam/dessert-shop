@@ -19,7 +19,7 @@ function ProductCard({ item, cartItem, onAddToCart, onIncrement, onDecrement }) 
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
                     {!isInCart ? (
                         <button onClick={() => onAddToCart(item)} className="flex items-center justify-center gap-2 bg-white text-rose-900 text-sm font-semibold py-3 px-5 rounded-full border border-rose-300 hover:text-red transition-colors whitespace-nowrap">
-                            <img src="/images/icon-add-to-cart.svg" alt="" className="w-4 h-4" />
+                            <img src="images/icon-add-to-cart.svg" alt="" className="w-4 h-4" />
                             Add to Cart
                         </button>
                     ) : (

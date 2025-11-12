@@ -10,7 +10,7 @@ function ConfirmationModal({ cart, onStartNewOrder }) {
                    md:w-full md:max-w-md md:rounded-xl md:px-8 md:py-4
                 md:top-1/2 md:left-1/2 md:bottom-auto md:right-auto md:-translate-x-1/2 md:-translate-y-1/2
                    md:max-h-none md:overflow-y-visible">
-                <img src="/images/icon-order-confirmed.svg" alt="check mark" className="mb-4" />
+                <img src="images/icon-order-confirmed.svg" alt="check mark" className="mb-4" />
 
                 <h2 id="confirmation-heading" className="font-bold text-3xl md:text-4xl text-rose-900 leading-tight mb-3 max-w-min md:max-w-none">Order Confirmed</h2>
                 <p className="text-base text-rose-500 mb-5">we hope you enjoy your meal</p>
